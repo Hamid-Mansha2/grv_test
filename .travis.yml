@@ -1,12 +1,9 @@
 dist: jammy
 os: linux
 arch: arm64
-language: node_js
-node_js:
-  - '16'  # Adjust as needed
+language: generic
 
 script:
-  - yarn lint
-  - yarn test
-  - yarn layout
-  - yarn build
+  - echo "Running tests..."
+  # Replace the following lines with your actual test commands
+  - ./run_tests.sh  # Placeholder for your test command

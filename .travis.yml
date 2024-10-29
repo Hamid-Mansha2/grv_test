@@ -1,0 +1,6 @@
+dist: jammy
+os: linux
+arch: arm64
+language: ruby
+rvm:
+  - 3.0  # Adjust the Ruby version as needed
